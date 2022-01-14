@@ -1,9 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 body{
+    margin:0;
     background-color: #E5E5E5;
     font-family: 'Poppins', sans-serif;
+    
 }
+header{
+    width: 100%;
+    height: 94px;
+    background-color: #562EFF;
+    color: white;
+    margin-bottom: 33px;
+    display: flex;
+}
+.header-left{
+    display: flex;
+}
+.header-icon{
+    width: 40px;
+}
+.header-icon i{
+    width: 100%;
+    font-size: 40px;
+}
+.header-text{
+    width: 70px;
+    font-size: 25px;
+    margin-left: 15px;
+}
+.center-aligned{
+    width: 930px;
+    height: 60px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+.header-image{
+    width: 51px;
+}
+.header-image img{
+    width:100%;
+}
+.header-menu{
+    width: 300px;
+    margin-right: -84px;
+}
+.header-menu ul{
+    display: flex;
+    padding-left: 0px;
+    justify-content: space-between;
+    align-content: center;
+}
+.header-menu ul li{
+    list-style: none;
+}
+.header-right{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-items:end;
+}
+/*                                            *\
+                Top Section complete
+\*                                            */
 .main-container{
     display: flex;
     flex-direction: column;
@@ -75,6 +136,7 @@ display: flex;
 \*                                         */
 .below-section{
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 .below-course{
     height: 362px;
